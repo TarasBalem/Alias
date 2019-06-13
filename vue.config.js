@@ -1,3 +1,4 @@
 module.exports = {
-  baseUrl: process.env.NODE_ENV === "production" ? "/Alias/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/Alias/" : "/",
 }
+
